@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link href="http://fonts.cdnfonts.com/css/metropolis-2" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/metropolis-2');
+    </style>
+  
+    <title>Login</title>
+    <script defer src= "valid login.js"> </script>
+</head>
+
+
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8" style="padding: 0%; margin: 0%; ">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                
+                
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                      <img src="Group 3770.png" alt="" >
+                      <div class="carousel-caption">
+                          <h3>Taste Studio</h3>
+                          <p>AI powered personalization engine dedicated </p>
+                          <p>to understanding human tastes</p>
+                      </div>    
+                    </div>
+  
+                    <div class="carousel-item">
+                      <img src="Group 3771.png" alt="" >
+                      <div class="carousel-caption">
+                          <h3>Engage Studio</h3>
+                          <p>AI powered personalization engine dedicated </p>
+                          <p>to understanding human tastes</p>
+                      </div>
+                    </div>
+  
+                    <div class="carousel-item">
+                      <img src="Group 3772.png" alt="" >
+                      <div class="carousel-caption">
+                          <h3>Commerce Studio</h3>
+                          <p>AI powered personalization engine dedicated </p>
+                          <p>to understanding human tastes</p>
+                      </div>
+                  </div>
+
+                </div>
+                
+              </div> 
+
+          </div>
+
+          <div class="col-md-3" style="padding: 0%;">
+              
+            <div style = "position:absolute; left:63px; top:70px;">
+                <img src="Group 283.png" alt="">
+            </div>
+            <br>
+            <div style = "position:absolute; left:50px; top:255px;" class="container">    
+                
+                <form id="form" method="GET">
+
+                
+                    <!--    <style>
+                    
+                        .form-group.success i.fa-check-circle {
+                        visibility: visible;
+                        color: #2ecc71;}
+
+                        .form-group.error i.fa-exclamation-circle {
+                        visibility: visible;
+                        color: #e74c3c;}
+                    
+                    </style>
+                    -->
+
+                    <div class="form-group"> 
+                        <label for="email" style="position: relative; top: 32px; left: 13px;font-size: small;font-family: 'Metropolis', sans-serif;font-weight: 420;color: #575E6B;">Login</label> 
+                        <input style="width: 110%; padding-top: 10%; padding-bottom: 5%;" type="email" required class="form-control" id="email" placeholder="Email Id"> 
+                    
+                        <!--    <i class="fa fa-check-circle" style = "position: absolute;top: 63px; right: -7px; visibility: hidden;"></i>
+                        <i class="fa fa-exclamation-circle" style = "position: absolute;top: 63px; right: -7px; visibility: hidden;"></i> -->
+                    
+                    </div>  
+                    
+                    <div class="form-group" style="position: relative; bottom: 27px;"> 
+                        <label for="pwd" style="position: relative; top: 32px; left: 13px;font-size: small;font-family: 'Metropolis', sans-serif;font-weight: 420;color: #575E6B;">Password</label> 
+                        <input style="width: 110%; padding-top: 10%; padding-bottom: 5%;" type="password" required class="form-control pr-password" id="pwd" placeholder="Credentials"> 
+                    
+                        <!--    <i class="fa fa-check-circle" style = "position: absolute;top: 63px; right: -22px; visibility: hidden; "></i>
+                        <i class="fa fa-exclamation-circle" style = "position: absolute;top: 63px; right: -22px; visibility: hidden; "></i> -->
+                    
+                    </div>
+
+                    <div class="checkbox" style="position: relative; bottom: 24px;"> 
+                        <label style="position: relative; top: 7px"><input style="position: relative; top: 1px;" type="checkbox"> Remember me</label>  
+                        <button style="background-color: black; position: absolute; right: -35px; padding-left: 12%;padding-right: 12%;" type="submit" class="btn btn-primary" >Sign in</button> 
+                    </div>
+
+                </form>
+
+            </div>
+
+            <!--forget password page-->
+            <div style = "position:absolute; left:65px; top:540px;">
+                <a style="color: #516078; font-style: metropolis;" href="Forget Password.html">Lost your password</a>
+            </div>
+
+            <!--request access page -->
+            <div style = "position:absolute; left:65px; top:565px;">
+                <a style="color: #516078;" href="Request for access.html">Not a member yet?Request access</a>
+            </div>
+            
+            <!--bottom logo-->
+            <div style = "position:absolute; left:65px; bottom:30px;">
+                <img src="Group 280.png" alt="">    
+            </div> 
+
+          </div>
+          
+        </div>
+
+        </div>
+           
+        
+          
+      
+      
+</body>
+</html>
